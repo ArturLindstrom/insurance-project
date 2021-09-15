@@ -438,7 +438,7 @@ li:hover {
     font-style: normal;
 }
 
-.go-to-top, go-to-top a, .go-to-top a:visited {
+.go-to-top, .go-to-top a, .go-to-top a:visited {
     width: 4rem;
     height: 4rem;
     background-color: #C7DDEA;
