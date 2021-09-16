@@ -395,6 +395,7 @@ li:hover {
     margin: 0.5rem 0;
     border-radius: 2px;
     border: none;
+    font-family: 'Fira Sans';
 }
 
 .form__input {
@@ -405,10 +406,6 @@ li:hover {
     min-height: 5rem;
     padding: 1rem;
     resize: none;
-}
-
-.form__your-message::placeholder {
-    font-family: 'Fira Sans';
 }
 
 .form__button {
@@ -512,6 +509,7 @@ li:hover {
     .contact-footer h1 {
         font-size: 3.5rem;
     }
+
 
     .go-to-top {
         display: none;
