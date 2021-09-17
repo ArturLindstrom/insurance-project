@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 html {
     scroll-behavior: smooth;
 }
@@ -30,7 +32,7 @@ h4 {
     opacity: 60%;
     font-size: 1.5rem;
     margin: 0;
-    align-self: flex-start; 
+    position: absolute;
 }
 
 button {
@@ -49,6 +51,8 @@ li {
 li:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+/* HOME MOBILE */
 
 .home-header {
     background: url(img/family.png) no-repeat, #C7DDEA;
@@ -242,6 +246,8 @@ li:hover {
     display: none;
 }
 
+/* HOME DESKTOP */
+
 @media  screen and (min-width: 1094px) {
     .grid-header {
         display: grid;
@@ -342,7 +348,7 @@ li:hover {
     
 }
 
-
+/* CONTACT MOBILE */
 
 .contact-header {
     background: url(img/man-baby.png) no-repeat,#C7DDEA ;
