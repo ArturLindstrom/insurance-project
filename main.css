@@ -504,6 +504,7 @@ li:hover {
     .contact-footer__address {
         position: static;
         padding: 2rem 2rem 6rem;
+        max-width: 30rem;
     }
 
     .contact-footer h1 {
